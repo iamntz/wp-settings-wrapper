@@ -39,4 +39,7 @@ class Sample extends \Ntz\Utils\Settings {
 
 }
 
-new Sample();
+new Sample(array(
+    "settings_title" => "Awesome Options Wrapper",
+    "namespace"      => "my-options",
+));

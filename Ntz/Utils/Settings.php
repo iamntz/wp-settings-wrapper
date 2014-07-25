@@ -7,8 +7,8 @@ abstract class Settings {
     {
         $this->options = array_merge( array(
             "settings_title" => "Sample Options",
-            "access_level"   => "manage_options",
-            "namespace"      => "sample-options"
+            "namespace"      => "sample-options",
+            "access_level"   => "manage_options"
         ), $options );
 
         add_action( 'admin_init', array( $this, 'settings_init' ) );
